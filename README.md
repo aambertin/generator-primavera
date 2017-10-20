@@ -8,6 +8,7 @@ First, install [Yeoman](http://yeoman.io) and generator-primavera using [npm](ht
 ```bash
 npm install -g yo
 npm install -g generator-primavera
+npm install -g babel-cli
 ```
 
 Then generate your new project:
@@ -15,6 +16,43 @@ Then generate your new project:
 ```bash
 yo primavera
 ```
+
+## Subgenerators
+
+Now that you already have a working project (really, try npm start! ;)), try adding some services, components and endpoints to it.
+
+
+```bash
+yo primavera:endpoint
+```
+
+There are 4 subgenerators available at the moment:
+ * component
+ * service
+ * middleware
+ * endpoint
+ 
+This is also the loading order (you can play with it in src/app.js).
+If it doesn't make sense for you, just change it.
+
+
+## Enabling HTTPS
+
+The bootstrap file (src/app.js) is already checking for key.pem and cert.pem.
+If you need to run HTTPS locally, then just generate the keys with ssh
+
+
+```bash
+openssl genrsa -out key.pem 2048
+openssl req -new -x509 -key key.pem -out cert.pem -days 3650
+```
+
+Next time you `npm start`, the HTTPS server will listen on port 3443.
+
+
+## Learn more!
+Go check the primavera framework GitHub:
+https://github.com/aambertin/primavera
 
 ## Getting To Know Yeoman
 
