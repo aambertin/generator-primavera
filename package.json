@@ -1,0 +1,57 @@
+{
+  "name": "generator-primavera",
+  "version": "1.0.0",
+  "description": "Utility generators for the primavera framework.",
+  "homepage": "https://www.npmjs.com/package/primavera",
+  "author": {
+    "name": "Anibal Ambertin",
+    "email": "aambertin@gmail.com",
+    "url": "https://github.com/aambertin"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "express",
+    "expressjs",
+    "generator",
+    "primavera",
+    "spring",
+    "framework",
+    "rails",
+    "django",
+    "koa",
+    "sails",
+    "lambda",
+    "aws",
+    "microservices",
+    "rad",
+    "api gateway",
+    "cloud",
+    "yeoman-generator"
+  ],
+  "devDependencies": {
+    "yeoman-test": "^1.7.0",
+    "yeoman-assert": "^3.1.0",
+    "nsp": "^2.6.3",
+    "husky": "^0.14.3",
+    "jest": "^21.0.0",
+    "jest-cli": "^21.0.0"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "yeoman-generator": "^2.0.1",
+    "yeoman-option-or-prompt": "^2.0.0",
+    "yosay": "^2.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "test": "jest"
+  },
+  "repository": "aambertin/generator-primavera",
+  "license": "MIT"
+}

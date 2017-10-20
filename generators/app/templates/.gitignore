@@ -1,0 +1,5 @@
+dist/
+*.pem
+*.tgz
+node_modules
+sessions
