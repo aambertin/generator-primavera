@@ -34,7 +34,7 @@
     "cookie-parser": "^1.4.3",
     "debug": "~2.6.3",
     "express": "~4.15.2",
-    "morgan": "~1.8.1",
+    "morgan": "~1.9.2",
     "node-rest-client": "^3.1.0",
     "primavera": "~1.0.10",
     "serverless-http": "^1.5.1"

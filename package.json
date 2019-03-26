@@ -1,6 +1,6 @@
 {
   "name": "generator-primavera",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility generators for the primavera framework.",
   "homepage": "https://www.npmjs.com/package/primavera",
   "author": {
