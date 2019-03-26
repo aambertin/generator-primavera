@@ -32,12 +32,12 @@
     "yeoman-generator"
   ],
   "devDependencies": {
-    "yeoman-test": "^1.7.0",
-    "yeoman-assert": "^3.1.0",
-    "nsp": "^2.6.3",
     "husky": "^0.14.3",
-    "jest": "^21.0.0",
-    "jest-cli": "^21.0.0"
+    "jest": "^24.5.0",
+    "jest-cli": "^24.5.0",
+    "nsp": "^3.2.1",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
   },
   "dependencies": {
     "chalk": "^2.1.0",
@@ -49,7 +49,6 @@
     "testEnvironment": "node"
   },
   "scripts": {
-    "prepublish": "nsp check",
     "test": "jest"
   },
   "repository": "aambertin/generator-primavera",
